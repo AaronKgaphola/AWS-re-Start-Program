@@ -92,10 +92,17 @@ In the lab I will demonstrate:
 ---
 ### Task 3: Update Your Security Group and Access the Web Server
 * Copy the Public IPv4 address of your instance to your clipboard.
-* N.B it will not open, to fix this I changed the indbound rules
+  
+  <img width="1190" height="705" alt="Screenshot 2026-01-29 103741" src="https://github.com/user-attachments/assets/69121ce2-4b49-43a6-a04d-50f202f75bd8" />
+
+* N.B it did not open, to fix this I changed the indbound rules
 * Add a rule with type : HTTP and source: Anywhare-IPv4
 
 <img width="1901" height="372" alt="Screenshot 2026-01-29 103717" src="https://github.com/user-attachments/assets/d341869e-9d82-4519-8c3a-c306d92c9ac5" />
+
+* After adding the rule, refresh page and it will run with a massage displayed
+  <img width="571" height="123" alt="Screenshot 2026-01-29 103832" src="https://github.com/user-attachments/assets/f6f3ffc3-b3b2-4408-b515-6e67dee63779" />
+
 
 ---
 ### Task 4: Resize Your Instance: Instance Type and EBS Volume
