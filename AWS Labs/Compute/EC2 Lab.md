@@ -84,8 +84,10 @@ In the lab I will demonstrate:
 * Review if the instance reachability is passed
 
 <img width="1566" height="327" alt="Screenshot 2026-01-29 102650" src="https://github.com/user-attachments/assets/3d4f8895-f317-4a51-9694-5a1f7d3812fe" />
+
 * Get the isnstance screeenshot
-  <img width="633" height="687" alt="Screenshot 2026-01-29 102842" src="https://github.com/user-attachments/assets/42c59775-4ad2-42f8-be74-d1dafe3761a1" />
+  
+<img width="633" height="687" alt="Screenshot 2026-01-29 102842" src="https://github.com/user-attachments/assets/42c59775-4ad2-42f8-be74-d1dafe3761a1" />
 
 ---
 ### Task 3: Update Your Security Group and Access the Web Server
@@ -109,14 +111,16 @@ In the lab I will demonstrate:
 * Start the Resized Instance
   <img width="1544" height="306" alt="Screenshot 2026-01-29 104844" src="https://github.com/user-attachments/assets/c5390e82-073f-4bae-b22f-73f4760ef6de" />
 
+---
 ### Task 5: Test Termination Protection
-* Termonating the instance wiht protection will not be proccessed, to change this I changed the Termination Protection settings of the intance
+* Terminating the instance with protection will not be proccessed, to change this I changed the Termination Protection settings of the intance
   <img width="1562" height="351" alt="Screenshot 2026-01-29 105135" src="https://github.com/user-attachments/assets/5e61ca9a-e673-46dd-ba74-c03890246064" />
 * Disable the termination protection of the instance
   <img width="732" height="464" alt="Screenshot 2026-01-29 105213" src="https://github.com/user-attachments/assets/646e6ad3-2fc1-40de-a3af-afa6a8b46087" />
-* After this proccess instance will be termonated
+* After this proccess instance will be terminated
   <img width="1567" height="286" alt="Screenshot 2026-01-29 105429" src="https://github.com/user-attachments/assets/8d3d839f-4caa-4f58-a7e6-831d7d3d4a15" />
 
+---
 ## What I Learned
 Through this lab, I gained **hands-on experience with EC2 from start to finish**. I learned how to:
 
