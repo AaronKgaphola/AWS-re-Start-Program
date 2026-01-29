@@ -24,4 +24,18 @@ In the lab I will demonstrate:
 
 ----
 
-#### TASK 1:
+#### TASK 1: Launching your EC2 instance
+
+* Go to the console dashboard either search for EC2 or it will be there on your dashboard to launch it
+
+
+<img width="1022" height="688" alt="Screenshot 2026-01-29 100352" src="https://github.com/user-attachments/assets/9018f179-7be0-457e-ae2f-17aa6abadb17" />
+
+
+----
+###### STEP 1: Naming your EC2 instance
+* Change the instance name to Web Server
+  
+<img width="1022" height="688" alt="Screenshot 2026-01-29 100352" src="https://github.com/user-attachments/assets/098b03f6-7386-4692-9de7-919a05e18b60" />
+
+
