@@ -7,7 +7,7 @@ Amazon Elastic Compute Cloud (Amazon EC2) is a web service that provides resizab
 
 Amazon EC2's simple web service interface allows you to obtain and configure capacity with minimal friction. It provides you with complete control of your computing resources and lets you run on Amazon's proven computing environment. Amazon EC2 reduces the time required to obtain and boot new server instances to minutes, allowing you to quickly scale capacity, both up and down, as your computing requirements change.
 
-<img width="479" height="389" alt="image" src="https://github.com/user-attachments/assets/c431240a-86df-4f46-ac4d-523406343e05" />
+  <img width="479" height="389" alt="image" src="https://github.com/user-attachments/assets/c431240a-86df-4f46-ac4d-523406343e05" />
 
 In this I lab provide you with a basic overview of launching, resizing, managing, and monitoring an Amazon EC2 instance.
 
@@ -29,30 +29,30 @@ In the lab I will demonstrate:
 * Go to the console dashboard either search for EC2 or it will be there on your dashboard to launch it
 
 
-<img width="1022" height="688" alt="Screenshot 2026-01-29 100352" src="https://github.com/user-attachments/assets/9018f179-7be0-457e-ae2f-17aa6abadb17" />
+  <img width="1022" height="688" alt="Screenshot 2026-01-29 100352" src="https://github.com/user-attachments/assets/9018f179-7be0-457e-ae2f-17aa6abadb17" />
 
 
 ----
 #### STEP 1: Naming your EC2 instance
 * Change the instance name to Web Server
   
-<img width="1022" height="688" alt="Screenshot 2026-01-29 100352" src="https://github.com/user-attachments/assets/098b03f6-7386-4692-9de7-919a05e18b60" />
+  <img width="1022" height="688" alt="Screenshot 2026-01-29 100352" src="https://github.com/user-attachments/assets/098b03f6-7386-4692-9de7-919a05e18b60" />
 
 ### STEP 2: Choosing an Amazon Machine Image (AMI)
 * Locate and choose the operating system of AMAZON LINUX 2023
 * Keep it as it is, at default
 
-<img width="1231" height="558" alt="Screenshot 2026-01-29 100725" src="https://github.com/user-attachments/assets/9459db72-d4a5-44a3-a1b3-8b10fab1dfe9" />
+  <img width="1231" height="558" alt="Screenshot 2026-01-29 100725" src="https://github.com/user-attachments/assets/9459db72-d4a5-44a3-a1b3-8b10fab1dfe9" />
 
 ### STEP 3: Choosing an instance type
 * Select a t3.micro instance
 
-<img width="1232" height="303" alt="Screenshot 2026-01-29 100918" src="https://github.com/user-attachments/assets/c729df69-3134-495e-b9ac-98d9d11d10c4" />
+  <img width="1232" height="303" alt="Screenshot 2026-01-29 100918" src="https://github.com/user-attachments/assets/c729df69-3134-495e-b9ac-98d9d11d10c4" />
 
 ### STEP 4: Configuring a key pair
 * In the Key pair (login) pane, select Proceed without a key pair (Not recommended)
 
-<img width="1245" height="251" alt="Screenshot 2026-01-29 100952" src="https://github.com/user-attachments/assets/08ee3147-7104-4771-a0e9-3ae3c629d0eb" />
+  <img width="1245" height="251" alt="Screenshot 2026-01-29 100952" src="https://github.com/user-attachments/assets/08ee3147-7104-4771-a0e9-3ae3c629d0eb" />
 
 ### STEP 5: Configuring the network settings
 * For VPC - required, select Lab VPC.
@@ -60,7 +60,7 @@ In the lab I will demonstrate:
 * Description: Security group for my web server
 * Under Inbound security groups rules select the Remove
 
-<img width="745" height="231" alt="image" src="https://github.com/user-attachments/assets/3bc1c911-a667-4378-ae8d-b43d7f58723f" />
+  <img width="745" height="231" alt="image" src="https://github.com/user-attachments/assets/3bc1c911-a667-4378-ae8d-b43d7f58723f" />
 
 ### STEP 6: Configuring advanced details
 * Enable Termination Protection
@@ -83,11 +83,11 @@ In the lab I will demonstrate:
 * Review if the systems reacability is passed
 * Review if the instance reachability is passed
 
-<img width="1566" height="327" alt="Screenshot 2026-01-29 102650" src="https://github.com/user-attachments/assets/3d4f8895-f317-4a51-9694-5a1f7d3812fe" />
+  <img width="1566" height="327" alt="Screenshot 2026-01-29 102650" src="https://github.com/user-attachments/assets/3d4f8895-f317-4a51-9694-5a1f7d3812fe" />
 
 * Get the isnstance screeenshot
   
-<img width="633" height="687" alt="Screenshot 2026-01-29 102842" src="https://github.com/user-attachments/assets/42c59775-4ad2-42f8-be74-d1dafe3761a1" />
+  <img width="633" height="687" alt="Screenshot 2026-01-29 102842" src="https://github.com/user-attachments/assets/42c59775-4ad2-42f8-be74-d1dafe3761a1" />
 
 ---
 ### Task 3: Update Your Security Group and Access the Web Server
@@ -98,9 +98,10 @@ In the lab I will demonstrate:
 * N.B it did not open, to fix this I changed the indbound rules
 * Add a rule with type : HTTP and source: Anywhare-IPv4
 
-<img width="1901" height="372" alt="Screenshot 2026-01-29 103717" src="https://github.com/user-attachments/assets/d341869e-9d82-4519-8c3a-c306d92c9ac5" />
+  <img width="1901" height="372" alt="Screenshot 2026-01-29 103717" src="https://github.com/user-attachments/assets/d341869e-9d82-4519-8c3a-c306d92c9ac5" />
 
 * After adding the rule, refresh page and it will run with a massage displayed
+  
   <img width="571" height="123" alt="Screenshot 2026-01-29 103832" src="https://github.com/user-attachments/assets/f6f3ffc3-b3b2-4408-b515-6e67dee63779" />
 
 
