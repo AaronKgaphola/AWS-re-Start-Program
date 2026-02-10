@@ -24,6 +24,8 @@ Before starting, ensure you have:
 1.	Open a browser and go to https://aws.amazon.com
 2.	Click Sign in to the Console
 3.	Log in using your AWS account credentials
+   <img width="1904" height="791" alt="0" src="https://github.com/user-attachments/assets/94d4094a-fcb0-41d6-bdfd-3e8286d6666c" />
+
 
  ---
  
@@ -151,5 +153,4 @@ Before starting, ensure you have:
 # Conclusion
 By hosting the AHKU Cafe website on Amazon S3, the business gains a reliable, scalable, and affordable online presence. This solution removes the need for on-premises servers while improving accessibility and customer engagement.
  
-
-<img width="451" height="694" alt="image" src="https://github.com/user-attachments/assets/2f282d89-361a-4bc7-8630-0a865380dc95" />
+---
