@@ -1,4 +1,4 @@
-# Hybrid Cloud Solution for a Café
+# Hybrid Cloud Solution for AHKU Café
 
 ## 📌 Project Overview
 This project demonstrates a *hybrid cloud architecture using AWS services* designed for a small café that is not fully migrated to the cloud.
