@@ -26,7 +26,6 @@ Before starting, ensure you have:
 3.	Log in using your AWS account credentials
    <img width="1904" height="791" alt="0" src="https://github.com/user-attachments/assets/94d4094a-fcb0-41d6-bdfd-3e8286d6666c" />
 
-
  ---
  
 ### Step 2: Access Amazon S3
@@ -34,22 +33,19 @@ Before starting, ensure you have:
 1.	In the AWS Console search bar, type S3
 2.	Select Amazon S3
 3.	You will be redirected to the S3 dashboard
-
-<img width="147" height="94" alt="image" src="https://github.com/user-attachments/assets/a13ea5e5-130e-4809-85f5-97cdf59e6ceb" />
+   <img width="1319" height="842" alt="1" src="https://github.com/user-attachments/assets/42da5eb7-d2e9-49dd-991d-61d421e937d1" />
 
  ---
  
 ### Step 3: Create an S3 Bucket
 
 1.	Click Create a bucket
-
-<img width="202" height="129" alt="image" src="https://github.com/user-attachments/assets/bfc8b85c-ecf3-47f4-8498-1144c6d03fc1" />
+   <img width="438" height="276" alt="2" src="https://github.com/user-attachments/assets/aab6d139-f4f4-4cd9-8641-848289cb8945" />
 
 2.	Enter a globally unique bucket name (bucket name: Ahku-cafe-website)
 3.	Select a Region ( Africa (Cape Town)
 4.	Leave Object Ownership as default (ACLs disabled) 
-
-<img width="259" height="124" alt="image" src="https://github.com/user-attachments/assets/ed7437c2-1bd7-417d-95df-8f2f88147b2c" />
+   <img width="1612" height="852" alt="3" src="https://github.com/user-attachments/assets/d7bd7b4f-540e-430d-9f01-b89b752c03e6" />
 
  ---
  
@@ -60,35 +56,35 @@ Before starting, ensure you have:
 2.	Acknowledge the warning by ticking the confirmation checkbox
 3.	Leave Bucket Versioning disabled
 4.	Leave Default Encryption enabled(SSE-S3 enabled)
+   <img width="1839" height="623" alt="4" src="https://github.com/user-attachments/assets/39a96884-4a01-4324-9db9-7e824dd5727d" />
 
-<img width="315" height="106" alt="image" src="https://github.com/user-attachments/assets/072bca55-3e64-4aee-9747-7e3382d79b6b" />
 
 5.	Click Create bucket
-
-<img width="382" height="58" alt="image" src="https://github.com/user-attachments/assets/ceb56529-ddba-45b6-a4cf-7472135bd0e0" />
-<img width="329" height="133" alt="image" src="https://github.com/user-attachments/assets/57e0fdcf-eddb-4597-81a1-2d74fbddc516" />
+   <img width="1867" height="314" alt="5" src="https://github.com/user-attachments/assets/22e85568-28c9-4566-825b-30c9f2234184" />
 
  ---
  
 ### Step 5: Upload Website Files
 
 1.	Open the newly created bucket
-2.	Click Upload
-3.	Select Add files
-4.	Upload index.html (and any additional files such as images, CSS, or JavaScript)
-5.	Click Upload
+   <img width="1267" height="572" alt="6" src="https://github.com/user-attachments/assets/1ab928e3-7ff5-457c-b978-4fb6f42700ed" />
 
-<img width="336" height="70" alt="image" src="https://github.com/user-attachments/assets/ba24c5fc-eb65-4cf4-9919-ecce0d17046e" />
-<img width="317" height="99" alt="image" src="https://github.com/user-attachments/assets/9b17a710-75b9-444d-80c6-a7dc9522d1e5" /><img width="213" height="85" alt="image" src="https://github.com/user-attachments/assets/0d204367-9bb5-4fb8-adf7-80f282b21008" />
-<img width="275" height="102" alt="image" src="https://github.com/user-attachments/assets/602c87d2-be95-4676-a2f9-dd27ec565b83" />
+3.	Click Upload
+   <img width="1862" height="361" alt="7" src="https://github.com/user-attachments/assets/09b80d29-0359-4838-b82d-e3e5e3922f76" />
+
+5.	Select Add files
+6.	Upload index.html (and any additional files such as images, CSS, or JavaScript)
+   <img width="1834" height="571" alt="8" src="https://github.com/user-attachments/assets/0f23c66b-ed8e-4e3d-a0e3-5b649e6e7273" />
+
+8.	Click Upload
+   <img width="1860" height="667" alt="10" src="https://github.com/user-attachments/assets/a6d9d191-77b5-4329-a395-b0fa6e57858e" />
 
 ---
 
 ### Step 6: Enable Static Website Hosting
 
 1.	Go to the Properties tab of the bucket
-
-<img width="426" height="32" alt="image" src="https://github.com/user-attachments/assets/87d19c18-2ac8-4960-bfaf-f0b7c51e3a43" />
+   <img width="1051" height="82" alt="11" src="https://github.com/user-attachments/assets/764468ff-a3b5-4c4f-a7aa-9ee35c69ab26" />
 
 2.	Scroll to Static website hosting
 3.	Click Edit
@@ -96,12 +92,10 @@ Before starting, ensure you have:
 5.	Choose Host a static website
 6.	Enter:
 7.	Index document: index.html
-
-<img width="337" height="137" alt="image" src="https://github.com/user-attachments/assets/a5c00544-dfa1-433b-a144-433a847aa5dd" />
+   <img width="1834" height="735" alt="12" src="https://github.com/user-attachments/assets/eeb45963-e34d-4eac-b83a-1588b79ef168" />
 
 8.	Click Save changes
-
-<img width="452" height="19" alt="image" src="https://github.com/user-attachments/assets/56b2d45f-d2a1-4126-9158-69ebd746d4d9" />
+   <img width="1851" height="66" alt="13" src="https://github.com/user-attachments/assets/6d86157a-9339-4d11-81e3-3a31fe1c1c06" />
 
  ---
  
@@ -123,21 +117,25 @@ Before starting, ensure you have:
     }
   ]
 }
-5.	Click Save changes
 
-<img width="416" height="122" alt="image" src="https://github.com/user-attachments/assets/1b215d42-d49f-4cc0-b49c-9afa96c20268" />
+   <img width="1423" height="724" alt="14" src="https://github.com/user-attachments/assets/0d16fc80-a8fd-4dd1-a2eb-98735b0d242e" />
+
+5.	Click Save changes
+   <img width="1863" height="535" alt="15" src="https://github.com/user-attachments/assets/3e047a4b-596c-4d64-a6ae-496a7bb32c41" />
 
  ---
 
 ### Step 8: Access the Live Website
 
 1.	Navigate back to the Properties tab
-2.	Scroll to Static website hosting
-3.	Copy the Bucket website endpoint
-4.	Paste the URL into a web browser to view the live AHKU Cafe website
+   <img width="1051" height="82" alt="11" src="https://github.com/user-attachments/assets/6b231a4e-2f72-496d-865d-9d10195b0100" />
 
-<img width="451" height="86" alt="image" src="https://github.com/user-attachments/assets/7720d284-5175-4cec-883c-66b02da83a69" />
-<img width="452" height="229" alt="image" src="https://github.com/user-attachments/assets/b73f5341-b47a-4b77-b4dc-8d64536ecaf0" />
+3.	Scroll to Static website hosting
+4.	Copy the Bucket website endpoint
+   <img width="1838" height="352" alt="16" src="https://github.com/user-attachments/assets/ee3a4fb7-a307-466a-92b1-d7ea79a4708b" />
+
+6.	Paste the URL into a web browser to view the live AHKU Cafe website
+   <img width="1893" height="967" alt="17" src="https://github.com/user-attachments/assets/8c49de9a-3a08-4312-a11d-8e4da3d418f6" />
 
 ---
  
