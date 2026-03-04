@@ -31,6 +31,7 @@ In this lab, i will:
 
 1. I connected to a Amazon Linux EC2 instance using an SSH utility to perform all of these operations.
    -For Instance B it connected since it has a public IP address.
+   
       <img width="818" height="512" alt="Screenshot 2026-03-04 113503" src="https://github.com/user-attachments/assets/38a851fa-6ed3-4ca2-bf77-9462aeee5fd5" />
 
    -For Instance A it did not connect because it has a private IP address.
