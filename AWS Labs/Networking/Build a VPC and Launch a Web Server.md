@@ -13,12 +13,12 @@ In this task, I use the VPC Wizard to create a VPC, an internet gateway, and two
 
 VPC settings:
 
-<img width="604" height="666" alt="Screenshot 2026-03-08 164156" src="https://github.com/user-attachments/assets/8935581d-8087-4cd2-8213-9d480b869276" />
+ <img width="604" height="666" alt="Screenshot 2026-03-08 164156" src="https://github.com/user-attachments/assets/8935581d-8087-4cd2-8213-9d480b869276" />
 
 
-&nbsp;
+Here I set the correct number of AZ's needed, added 1 public subnet and 1 private subnet, customized the CIDR blocks for both subnets.
 
-<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/ac54f974-45ee-4273-bf2e-affd04695bdd" />
+ <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/ac54f974-45ee-4273-bf2e-affd04695bdd" />
 
 &nbsp;
 
