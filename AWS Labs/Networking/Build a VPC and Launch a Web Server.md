@@ -15,14 +15,17 @@ VPC settings:
 
  <img width="604" height="666" alt="Screenshot 2026-03-08 164156" src="https://github.com/user-attachments/assets/8935581d-8087-4cd2-8213-9d480b869276" />
 
-
+&nbsp;
 Here I set the correct number of AZ's needed, added 1 public subnet and 1 private subnet, customized the CIDR blocks for both subnets.
 
- <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/ac54f974-45ee-4273-bf2e-affd04695bdd" />
+ <img width="604" height="748" alt="Screenshot 2026-03-08 164400" src="https://github.com/user-attachments/assets/15add05a-d34d-4177-b5ba-d17ae675930a" />
+
 
 &nbsp;
+Here I created a NET Gateway in one AZ, then set the it with no VPC endpoints.
 
-<img width="600" height="300" alt="image" src="https://github.com/user-attachments/assets/63e4677c-6f6d-48ad-9b5a-7c8aaf6cf927" />
+ <img width="603" height="748" alt="Screenshot 2026-03-08 164505" src="https://github.com/user-attachments/assets/9b59a9d5-70e2-4a2d-83e2-b9f766569c67" />
+
 
 &nbsp;
 
