@@ -95,7 +95,8 @@ This latest deployment of the Lambda function will trigger Amazon Inspector to i
 -	In the list of closed findings, you see **CVE-2023-32681 - request**s. This confirms the successful remediation of the vulnerability.
 _Note: It takes a few minutes for the scan to initiate and finish. _
 -	In the navigation pane at the left of the page, under **Resources coverage**, I chose **Lambda functions**.
-<img width="940" height="300" alt="image" src="https://github.com/user-attachments/assets/06faadb8-23d3-4458-bc9d-8962015cabd2" />
+<img width="1901" height="724" alt="Screenshot 2026-03-10 100025" src="https://github.com/user-attachments/assets/6ee6a616-940e-410d-bd44-3a9072ff57a7" />
+
 
 You see that the most recently scanned Lambda function has an updated timestamp.
 
