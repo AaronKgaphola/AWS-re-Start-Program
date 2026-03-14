@@ -11,10 +11,11 @@ In this lab I will:
 -	Experiment with the effects of policies on service access
 
 -----
-IAM can be used for the following:
--	_Manage IAM users and their access:_ You can create users and assign them individual security credentials (access keys, passwords, and multi-factor authentication devices). You can manage permissions to control which operations a user can perform.
--	_Manage IAM roles and their permissions:_ An IAM role is similar to a user in that a role is an AWS identity with permission policies that determine what the identity can and cannot do in Amazon Web Services (AWS). However, instead of being uniquely associated with one person, a role is intended to be assumable by anyone who needs it.
--	_Manage federated users and their permissions:_ You can activate identity federation to allow existing users in your enterprise to access the AWS Management Console, to call AWS application programming interfaces (APIs), and to access resources without the need to create an IAM user for each identity.
+
+### IAM can be used for the following:
+-	Manage IAM users and their access:_ You can create users and assign them individual security credentials (access keys, passwords, and multi-factor authentication devices). You can manage permissions to control which operations a user can perform.
+-	Manage IAM roles and their permissions:_ An IAM role is similar to a user in that a role is an AWS identity with permission policies that determine what the identity can and cannot do in Amazon Web Services (AWS). However, instead of being uniquely associated with one person, a role is intended to be assumable by anyone who needs it.
+-	Manage federated users and their permissions:_ You can activate identity federation to allow existing users in your enterprise to access the AWS Management Console, to call AWS application programming interfaces (APIs), and to access resources without the need to create an IAM user for each identity.
 ----- 
 ### Task 1: Creating an account password policy
 
@@ -51,8 +52,6 @@ The following is the basic structure of the statements in an IAM policy:
 - **Effect** indicates whether to **Allow** or **Deny** the permissions.
 - **Action**specifies the API calls that can be made against an AWS service (for example, cloudwatch:ListMetrics).
 - **Resource** defines the scope of entities covered by the policy rule (for example, a specific Amazon Simple Storage Service [Amazon S3] bucket, EC2 instance, or  which means any resource).
-- 
-**NOT SHOWN
 
 -----
 ### Task 3: Add users to user groups
@@ -119,3 +118,6 @@ I have successfully:
 -	Located and used the IAM sign-in URL
 -	Experimented with the effects of policies on service access
  
+guinnliubil
+ivybul
+vybiln
