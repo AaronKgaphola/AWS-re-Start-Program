@@ -12,5 +12,7 @@ In this lab I will do the following:
   - Locate and use the IAM sign-in URL
   - Experiment with the effects of policies on service access
 
--------
+------
+
+
 
