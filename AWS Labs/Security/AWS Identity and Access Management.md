@@ -106,6 +106,8 @@ User 2 doesn’t have access to list and view s3 buckets
 User 1 was able to stop the EC2 instance as they have the permission to do so
 <img width="940" height="200" alt="image" src="https://github.com/user-attachments/assets/9552065e-8ab7-4e9d-a4d6-365c714527c1" />
 
+
+
 -------
 I successfully:
 -	Created and applied an IAM password policy
