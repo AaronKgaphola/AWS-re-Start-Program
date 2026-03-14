@@ -109,7 +109,7 @@ User 1 was able to stop the EC2 instance as they have the permission to do so
 
 ### User 3
 
-
+ 
 -------
 I have successfully:
 -	Created and applied an IAM password policy
