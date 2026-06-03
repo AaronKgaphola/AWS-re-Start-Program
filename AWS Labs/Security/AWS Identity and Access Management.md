@@ -66,7 +66,7 @@ _User 2 added to  EC2 support_
 <img width="1541" height="705" alt="iam6" src="https://github.com/user-attachments/assets/4ee601ff-cb59-4c9e-a368-370a2716f786" />
 
 _User 3 added to EC2 Admin_
-<img width="940" height="300" alt="image" src="https://github.com/user-attachments/assets/7ac139ab-079e-499f-941a-d9094d609b1c" />
+<img width="1549" height="713" alt="iam7" src="https://github.com/user-attachments/assets/673f5e93-73fc-447a-a290-a643d9c736bc" />
 
 ------
 #### Task 4: Sign in and test user permissions
