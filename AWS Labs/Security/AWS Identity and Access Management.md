@@ -1,7 +1,6 @@
 # AWS Identify and Access Management
 ------
 ### Objectives
-In this lab I will :
 -	Create and apply an IAM password policy
 -	Explore pre-created IAM users and user groups
 -	Inspect IAM policies as applied to the pre-created user groups
@@ -17,17 +16,19 @@ In this lab I will :
 ----- 
 #### Task 1: Creating an account password policy
 
-<img width="700" height="400" alt="image" src="https://github.com/user-attachments/assets/6cbac8a9-f870-43c5-be58-38a5f42f5abb" />
+<img width="1381" height="841" alt="iam1" src="https://github.com/user-attachments/assets/3cbd06dd-2748-4b5e-83ec-2e64fcaa09d4" />
 
 &nbsp;
 
  On the dashboard under _account settings_, I clicked “edit”
-<img width="940" height="306" alt="image" src="https://github.com/user-attachments/assets/c80a71b8-9d2e-4638-ac5d-02671167a70f" />
+ 
+<img width="1904" height="579" alt="iam2" src="https://github.com/user-attachments/assets/28150ae0-5393-4fe0-9f97-121d74f0a35f" />
 
 &nbsp;
 
 My new password policies:
-<img width="940" height="400" alt="image" src="https://github.com/user-attachments/assets/04ea116d-46fd-4437-94f4-f6d542005751" />
+
+<img width="1845" height="752" alt="iam3" src="https://github.com/user-attachments/assets/342b92f3-d05e-4acd-8cf7-2ba05dfba2e9" />
 
 &nbsp;
 
@@ -37,12 +38,14 @@ My new password policies:
 #### Task 2: Explore users and user groups
 
 Available users:
-<img width="940" height="260" alt="image" src="https://github.com/user-attachments/assets/1ce90a5e-0ea4-4cf1-b7bf-d57c4631bcb0" />
+
+<img width="1917" height="445" alt="iam4" src="https://github.com/user-attachments/assets/1ef88e59-8ae3-4dec-bc94-55d71dbdfe7e" />
 
 &nbsp;
 
 Available user groups:
 <img width="900" height="200" alt="image" src="https://github.com/user-attachments/assets/a9425f6f-1767-46b1-8628-82e5233a027d" />
+
 
 ------
 A **policy** defines what actions are allowed or denied for specific AWS resources. This policy grants permission to list and describe information about Amazon Elastic Compute Cloud (EC2), Elastic Load Balancing (ELB), Amazon CloudWatch, and Amazon EC2 Auto Scaling. This ability to view resources but not modify them is ideal for assigning to a support role.
@@ -56,56 +59,55 @@ The following is the basic structure of the statements in an IAM policy:
 -----
 #### Task 3: Add users to user groups
 
-_Add user-1 to the ec2 admin_
-<img width="940" height="400" alt="image" src="https://github.com/user-attachments/assets/1a3887f6-b4e2-4340-8284-2045d47383ae" />
+_Add user-1 to the S3 support_
+<img width="1556" height="708" alt="iam5" src="https://github.com/user-attachments/assets/50a820c4-21a6-4785-badd-1af744a049c5" />
 
-&nbsp;
-In the Users tab, you see that user-1 has been added to the group.
-<img width="940" height="300" alt="image" src="https://github.com/user-attachments/assets/20841af6-6ca7-46f6-b6bc-b0fc3b8f8b8e" />
+_User 2 added to  EC2 support_
+<img width="1541" height="705" alt="iam6" src="https://github.com/user-attachments/assets/4ee601ff-cb59-4c9e-a368-370a2716f786" />
 
-&nbsp;
-_User 2 added to  ec2 support_
-<img width="940" height="300" alt="image" src="https://github.com/user-attachments/assets/36ab0e6f-62a0-4951-a0f3-36b0c022fbd0" />
-
-_User 3 added to s3 support_
+_User 3 added to EC2 Admin_
 <img width="940" height="300" alt="image" src="https://github.com/user-attachments/assets/7ac139ab-079e-499f-941a-d9094d609b1c" />
 
 ------
 #### Task 4: Sign in and test user permissions
 
 On the dashboard a link is provided. I copied the link and opened a new incognito tab to test the user permissions
-<img width="494" height="400" alt="image" src="https://github.com/user-attachments/assets/abb135ff-9b13-4d6b-809c-bfe8a5c19b9c" />
+<img width="1565" height="669" alt="iam8" src="https://github.com/user-attachments/assets/dc29f9ab-1ca2-4c25-a8de-9a12bdaa0b40" />
+
 
 ------
 #### User 1
+<img width="1558" height="885" alt="iam9" src="https://github.com/user-attachments/assets/44fb524c-75a2-4559-b81a-b24ab8fbea07" />
 
-User 1 is not able to see S3 buckets as they have not been added to the group.
-<img width="940" height="300" alt="image" src="https://github.com/user-attachments/assets/ec9d64af-8378-4e82-b4dd-96f5e2bb9cc0" />
+
+User 1 is able to see S3 buckets as they have been added to the group.
+<img width="1919" height="804" alt="iam10" src="https://github.com/user-attachments/assets/628c2d56-5b89-4871-be70-0e1ac79e09aa" />
+
+User 1 does not have access to the EC2 uspport or admin groups to view instances.
+<img width="1897" height="803" alt="iam11" src="https://github.com/user-attachments/assets/187abc16-92f7-461e-852a-94a9fb06d022" />
+
 
 &nbsp;
 
 ----
 #### User 2
-
-<img width="470" height="400" alt="image" src="https://github.com/user-attachments/assets/4710b95d-3cea-499d-9200-0df7609bdd30" />
-
-&nbsp;
+<img width="1545" height="891" alt="iam12" src="https://github.com/user-attachments/assets/324d4195-781c-4ef4-9a61-4b6f9789fbf2" />
 
 User 2 is able to see an EC2 instance because they have read-only permissions. However, aren’t able to make any changes to Amazon EC2 resources.
-<img width="900" height="239" alt="image" src="https://github.com/user-attachments/assets/44b959b8-06bc-4993-a25d-6b5a95b88f15" />
-
+<img width="1898" height="859" alt="iam14" src="https://github.com/user-attachments/assets/4419f709-cf7e-474c-8fc6-ecb684719e2f" />
 
 User 2 is not able to stop the instance as the only have read permissions.
-<img width="900" height="290" alt="image" src="https://github.com/user-attachments/assets/fa94508f-9b54-4d5a-aa34-b313a1db3e67" />
-
+<img width="1605" height="372" alt="iam15" src="https://github.com/user-attachments/assets/c26d5709-7a44-4de3-93b1-6c7cf679e571" />
 
 User 2 doesn’t have access to list and view s3 buckets
-<img width="900" height="300" alt="image" src="https://github.com/user-attachments/assets/fbdf0b2d-54d3-4d64-a305-8fac5ca27798" />
+<img width="1918" height="622" alt="iam16" src="https://github.com/user-attachments/assets/74b28afc-8c11-4778-9ac6-d1c5fd5804df" />
 
 ---
-User 1 was able to stop the EC2 instance as they have the permission to do so
-<img width="940" height="200" alt="image" src="https://github.com/user-attachments/assets/9552065e-8ab7-4e9d-a4d6-365c714527c1" />
+#### User 3
+<img width="1544" height="889" alt="iam17" src="https://github.com/user-attachments/assets/80fc84ef-cb27-42cd-833a-bdad53a85f3c" />
 
+User 3 was able to stop the EC2 instance as they have the permission to do so
+<img width="1600" height="375" alt="iam19" src="https://github.com/user-attachments/assets/10097bce-6132-4214-842e-13bd268dfce0" />
 
 
 -------
