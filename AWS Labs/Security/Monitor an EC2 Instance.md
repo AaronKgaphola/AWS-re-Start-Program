@@ -134,7 +134,8 @@ _A metric alarm watches a single CloudWatch metric or the result of a math expre
 &nbsp;
 
 12.	Review the Preview and create page, and then choose Create alarm.
-<img width="940" height="220" alt="image" src="https://github.com/user-attachments/assets/13cee55a-76a3-4e6d-bb7c-e8979542b2e1" />
+<img width="1593" height="414" alt="Screenshot 2026-03-14 233351" src="https://github.com/user-attachments/assets/7211fe24-3c27-49a7-9876-18290a8b838e" />
+
 
 -----
 
@@ -143,34 +144,19 @@ _**Task 3: Test the Cloudwatch alarm**_
 In this task, I log in to the Stress Test EC2 instance and run a command that stresses the CPU load to 100 percent. This increase in CPU utilization activates the CloudWatch alarm, which causes Amazon SNS to send an email notification to the email address associated with the SNS topic.
 1. Navigate to the Vocareum(Lab instructions) console page and select the **AWS Details** button.
 2. Next to EC2InstanceURL, there is a link. Copy and paste this link into a new browser tab.
-   <img width="399" height="460" alt="image" src="https://github.com/user-attachments/assets/d21ab70c-4f7b-4c0e-9654-b1b3c97ea0eb" />
-
-&nbsp;
-
 This link connects to the **Stress Test** EC2 instance.
-
 3. To manually increase the CPU load of the EC2 instance, I ran the following command:
-
 **sudo stress --cpu 10 -v --timeout 400s**
-
 The output from the command:
-
-<img width="470" height="300" alt="image" src="https://github.com/user-attachments/assets/5a600971-9c47-47d7-8855-68d50ad92287" />
+<img width="725" height="745" alt="Screenshot 2026-03-14 233546" src="https://github.com/user-attachments/assets/55e7704f-01f1-4ac7-9aa1-5c52f06e6fb7" />
 
 &nbsp;
 
 4. Copy and paste the URL text next to EC2InstanceURL into another new browser tab to open a second terminal for the Stress Test instance.
-   <img width="530" height="470" alt="image" src="https://github.com/user-attachments/assets/6923bed3-baa0-4b1c-aa58-8c038f13142d" />
-
-&nbsp;
-
 run the following command:
-
 **top**
-
 _This command shows the live CPU usage_
-
-<img width="578" height="420" alt="image" src="https://github.com/user-attachments/assets/0eef2b3c-58d8-4640-8776-d67982695b60" />
+<img width="1078" height="822" alt="Screenshot 2026-03-14 233703" src="https://github.com/user-attachments/assets/5aa348a9-15bf-42fe-a17a-4f921864716a" />
 
 &nbsp;
 
@@ -178,17 +164,18 @@ _This command shows the live CPU usage_
 6. Choose **LabCPUUtilizationAlarm.**
 7. Monitor the graph while selecting the refresh button every minute until the alarm status is **In alarm**.
 8. It takes a few minutes for the alarm status to change to **In alarm** and for an email to send.
-<img width="940" height="158" alt="image" src="https://github.com/user-attachments/assets/722fd472-8b8b-486b-b53d-05c2d2577de6" />
+<img width="1589" height="656" alt="Screenshot 2026-03-14 234010" src="https://github.com/user-attachments/assets/ffdb3e6e-a290-4077-a7e9-737cfb322257" />
 
 &nbsp;
 
 On the graph, you can see where **CPUUtilization** has increased above the 60 percent threshold.
-<img width="830" height="340" alt="image" src="https://github.com/user-attachments/assets/d28ccf49-1024-4730-bb5e-14741010b9dd" />
+<img width="1873" height="741" alt="Screenshot 2026-03-14 234045" src="https://github.com/user-attachments/assets/c4489882-c048-4970-ab9d-ab0c765597b6" />
 
 &nbsp;
 
 9. Navigate to your email inbox for the email address that you used to configure the Amazon SNS subscription. You should see a new email notification from **AWS Notifications.**
-<img width="734" height="450" alt="image" src="https://github.com/user-attachments/assets/dea1e559-4069-4f94-88ac-ec7eb8e34584" />
+<img width="1589" height="656" alt="Screenshot 2026-03-14 234010" src="https://github.com/user-attachments/assets/6165100f-d05d-4cea-a369-92149dc53be9" />
+
 
 ----
 _**Task 4: Create a CloudWatch dashboard**_
@@ -201,6 +188,8 @@ _CloudWatch dashboards are customizable home pages in the CloudWatch console tha
 2. I chose **Create dashboard.**
 3. For **Dashboard name**:LabEC2Dashboard and then **Create dashboard.**
 4. Select **Line**.
+<img width="1156" height="683" alt="Screenshot 2026-03-14 234154" src="https://github.com/user-attachments/assets/e9931bde-71f1-4ead-b22e-472eb70179ab" />
+
 5. Click **Metrics.**
 6. I clicked **EC2**, and then choose **Per-Instance Metrics.**
 7. Select the check box with **Stress Test** for the Instance name and **CPUUtilization** for the Metric name.
@@ -208,11 +197,12 @@ _CloudWatch dashboards are customizable home pages in the CloudWatch console tha
 9.Clicked **Save dashboard.**
 
 Now I have created a quick access shortcut to view the **CPUUtilization** metric for the **Stress Test** instance.
-<img width="940" height="440" alt="image" src="https://github.com/user-attachments/assets/4ca8651e-cd1e-4661-8408-f1d8a44bdbad" />
+<img width="1724" height="869" alt="Screenshot 2026-03-14 234231" src="https://github.com/user-attachments/assets/15a23e08-1045-4ab6-a916-7263250561db" />
 
 &nbsp;
 
-<img width="525" height="420" alt="image" src="https://github.com/user-attachments/assets/163b2728-e10b-4cf1-b0f4-b7eff68b0977" />
+<img width="1919" height="559" alt="Screenshot 2026-03-14 234324" src="https://github.com/user-attachments/assets/ac1ca025-6980-4c51-8c7b-c2f81c1e6dad" />
+
 
 ----
 _**Lab summary**_
