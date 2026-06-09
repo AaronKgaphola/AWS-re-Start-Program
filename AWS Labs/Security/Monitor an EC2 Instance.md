@@ -45,7 +45,7 @@ On the Create topic page in the **Details** section, configure the following opt
 
 &nbsp;
 
-<img width="940" height="300" alt="image" src="https://github.com/user-attachments/assets/66db4bf3-e991-42a2-b333-8126db244f82" />
+<img width="1567" height="225" alt="Screenshot 2026-03-14 232257" src="https://github.com/user-attachments/assets/22df09d7-3058-4ebf-8a8b-8c6df2cd2340" />
 
 &nbsp;
 
