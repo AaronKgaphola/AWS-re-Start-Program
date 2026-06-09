@@ -62,15 +62,18 @@ _**Task 2: Create a CloudWatch alarm**_
 **CloudWatch** is a monitoring and observability service built for DevOps engineers, developers, site reliability engineers (SREs), IT managers, and product owners. CloudWatch provides you with data and actionable insights to monitor your applications, respond to system-wide performance changes, and optimize resource utilization. CloudWatch collects monitoring and operational data in the form of logs, metrics, and events. You get a unified view of operational health and gain visibility of your AWS resources, applications, and services running on AWS and on premises.
 
 1. In the AWS Management Console, enter **Cloudwatch** in the search bar, and then choose it.
+<img width="1182" height="842" alt="Screenshot 2026-03-14 232444" src="https://github.com/user-attachments/assets/d43e810f-b9cd-4400-bfff-f327aa87c539" />
+
 2. In the left navigation pane, choose the **Metrics** dropdown list, and then choose **All metrics.**
 3. On the Metrics page, choose **EC2**, and choose **Per-Instance Metrics.**
 From this page, you can view all the metrics being logged and the specific EC2 instance for the metrics.
-<img width="940" height="400" alt="image" src="https://github.com/user-attachments/assets/3cad3c7a-7ad4-44d3-bfc1-ab7e657693a1" />
+<img width="1598" height="749" alt="Screenshot 2026-03-14 232602" src="https://github.com/user-attachments/assets/480d6a08-9b03-47f6-b839-abc23637a121" />
+
 
 &nbsp;
 
 5. Select the check box with **CPUUtilization** as the Metric name for the Stress Test EC2 instance.
-   <img width="940" height="431" alt="image" src="https://github.com/user-attachments/assets/73d1a5fe-9f07-47fd-8228-37a649d14329" />
+<img width="1744" height="848" alt="Screenshot 2026-03-14 232857" src="https://github.com/user-attachments/assets/02b09984-8cea-46c1-b348-0343b236eee9" />
 
 &nbsp;
 
@@ -95,7 +98,7 @@ _A metric alarm watches a single CloudWatch metric or the result of a math expre
 •	Statistic: Enter Average
 
 •	Period: From the dropdown list, chose 1 minute.
-<img width="844" height="371" alt="image" src="https://github.com/user-attachments/assets/b23bc61c-dc24-4991-9746-2bbe0f63c2e1" />
+<img width="1498" height="741" alt="Screenshot 2026-03-14 233018" src="https://github.com/user-attachments/assets/c6d2ebbb-e26a-4f8e-b906-3220733d21fa" />
 
 &nbsp;
 
@@ -106,7 +109,7 @@ _A metric alarm watches a single CloudWatch metric or the result of a math expre
 •	Whenever CPUUtilization is...: Choose Greater > threshold.
 
 •	than... Define the threshold value: 60
-<img width="940" height="350" alt="image" src="https://github.com/user-attachments/assets/7cd2b5e8-d859-46a6-93d4-dd69f7dd171a" />
+<img width="1475" height="536" alt="Screenshot 2026-03-14 233116" src="https://github.com/user-attachments/assets/cda314df-ca02-4f80-91ea-65cb728b7347" />
 
 &nbsp;
 
@@ -117,7 +120,7 @@ _A metric alarm watches a single CloudWatch metric or the result of a math expre
 •	Select an SNS topic: Select an existing SNS topic.
 
 •	Send a notification to...: Choose the text box and then choose MyCwAlarm.
-<img width="940" height="430" alt="image" src="https://github.com/user-attachments/assets/e1502bde-513b-414e-81fb-ebf3e6271222" />
+<img width="1485" height="729" alt="Screenshot 2026-03-14 233225" src="https://github.com/user-attachments/assets/0cf3e4f4-fb8d-41da-bb2a-f27fa4a06a9b" />
 
 &nbsp;
 
@@ -126,7 +129,7 @@ _A metric alarm watches a single CloudWatch metric or the result of a math expre
 •	Alarm name: LabCPUUtilizationAlarm
 
 •	Alarm description - optional: CloudWatch alarm for Stress Test EC2 instance CPUUtilization
-<img width="940" height="350" alt="image" src="https://github.com/user-attachments/assets/992d781d-e8b6-4e4b-a1c1-88800ad61b60" />
+<img width="1492" height="563" alt="Screenshot 2026-03-14 233322" src="https://github.com/user-attachments/assets/137f65ff-e903-42f4-88fe-59add757949f" />
 
 &nbsp;
 
